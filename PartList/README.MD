@@ -6,17 +6,17 @@ Elements of a pair must be in the same order as in the original array.
 
 Examples of returns in different languages
 
-a = ["az", "toto", "picaro", "zone", "kiwi"] -->
-[["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] 
-or
- a = {"az", "toto", "picaro", "zone", "kiwi"} -->
-{{"az", "toto picaro zone kiwi"}, {"az toto", "picaro zone kiwi"}, {"az toto picaro", "zone kiwi"}, {"az toto picaro zone", "kiwi"}}
-or
-a = ["az", "toto", "picaro", "zone", "kiwi"] -->
-[("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")]
-or 
-a = [|"az", "toto", "picaro", "zone", "kiwi"|] -->
-[("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")]
-or
-a = ["az", "toto", "picaro", "zone", "kiwi"] -->
-"(az, toto picaro zone kiwi)(az toto, picaro zone kiwi)(az toto picaro, zone kiwi)(az toto picaro zone, kiwi)"
+a = ["az", "toto", "picaro", "zone", "kiwi"] --> <br> 
+[["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] <br> 
+or <br> 
+ a = {"az", "toto", "picaro", "zone", "kiwi"} --> <br> 
+{{"az", "toto picaro zone kiwi"}, {"az toto", "picaro zone kiwi"}, {"az toto picaro", "zone kiwi"}, {"az toto picaro zone", "kiwi"}} <br> 
+or <br> 
+a = ["az", "toto", "picaro", "zone", "kiwi"] --> <br> 
+[("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")] <br> 
+or <br> 
+a = [|"az", "toto", "picaro", "zone", "kiwi"|] --> <br> 
+[("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")] <br> 
+or<br> 
+a = ["az", "toto", "picaro", "zone", "kiwi"] --><br> 
+"(az, toto picaro zone kiwi)(az toto, picaro zone kiwi)(az toto picaro, zone kiwi)(az toto picaro zone, kiwi)"<br> 
