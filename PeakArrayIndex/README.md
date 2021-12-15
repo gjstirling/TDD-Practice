@@ -6,8 +6,7 @@ For example:
 peak [1,12,3,3,6,3,1] == Just 2
 peak [10,20,30,40]  == Nothing 
 
-Examples: 
-
-Test.assertEquals(peak([1,2,3,5,3,2,1]),3);
-Test.assertEquals(peak([1,12,3,3,6,3,1]),2);
-Test.assertEquals(peak([10,20,30,40]),-1);
+**Input/Output:**<br>
+([1,2,3,5,3,2,1]), 3);<br>
+([1,12,3,3,6,3,1]), 2);<br>
+([10,20,30,40]), -1);<br>
