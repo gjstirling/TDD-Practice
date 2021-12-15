@@ -5,12 +5,9 @@ function partList(array){
   }
   else { 
     var arrayContainer = []
-    var index = 1
       for (let i = 0; i < (length-1); i++) {
-        arrayContainer.push(arrayCluster(array, length, index))
-        index += 1;
+        arrayContainer.push(arrayCluster(array, length, (i+1)))
       } 
-    console.log(arrayContainer);
     return arrayContainer;
   }
 }
