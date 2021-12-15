@@ -3,6 +3,15 @@ function assertEquals(array) {
     return -1;
   }
   else {
+    return findIndex(array);
+  }
+}
+
+function findIndex(array) {
+  for (let i = 1; i < array.length; i++) {
+    if (array.first == array.last){
+      return 1;
+    }
   }
 }
 
