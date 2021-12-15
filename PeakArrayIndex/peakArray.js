@@ -1,5 +1,5 @@
-function peakArray() { 
+function assertEquals() { 
   return "yes";
 }
 
-module.exports = peakArray
+module.exports = assertEquals

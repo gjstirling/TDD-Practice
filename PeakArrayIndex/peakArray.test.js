@@ -1,6 +1,6 @@
-const peakArray = require('./peakArray') 
+const assertEquals = require('./peakArray') 
 
 test('setup test', () => {
-  const output = peakArray();
+  const output = assertEquals();
   expect(output).toEqual("yes"); 
 })
