@@ -4,19 +4,8 @@ Each two non empty parts will be in a pair (or an array for languages without tu
 Each part will be in a string
 Elements of a pair must be in the same order as in the original array.
 
-Examples of returns in different languages
+Examples of return:
 
-a = ["az", "toto", "picaro", "zone", "kiwi"] --> <br> 
-[["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] <br> 
-or <br> 
- a = {"az", "toto", "picaro", "zone", "kiwi"} --> <br> 
-{{"az", "toto picaro zone kiwi"}, {"az toto", "picaro zone kiwi"}, {"az toto picaro", "zone kiwi"}, {"az toto picaro zone", "kiwi"}} <br> 
-or <br> 
-a = ["az", "toto", "picaro", "zone", "kiwi"] --> <br> 
-[("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")] <br> 
-or <br> 
-a = [|"az", "toto", "picaro", "zone", "kiwi"|] --> <br> 
-[("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")] <br> 
-or<br> 
-a = ["az", "toto", "picaro", "zone", "kiwi"] --><br> 
-"(az, toto picaro zone kiwi)(az toto, picaro zone kiwi)(az toto picaro, zone kiwi)(az toto picaro zone, kiwi)"<br> 
+input = ["az", "toto", "picaro", "zone", "kiwi"] --> <br> 
+output = [["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] <br> 
+
