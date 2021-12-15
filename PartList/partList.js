@@ -1,19 +1,22 @@
 function partList(array){
-  let length = array.length - 1;
-  if (length == 0) {
-    return array 
+  let length = array.length;
+  if (length == 1) {
+    return array; 
   }
-  else {  
-    return dividedArray(array, length)
-  }  
+  else { 
+    var arrayContainer = []
+    var index = 1
+      for (let i = 0; i < (length-1); i++) {
+        arrayContainer.push(arrayCluster(array, length, index))
+        index += 1;
+      } 
+    console.log(arrayContainer);
+    return arrayContainer;
+  }
 }
 
-function dividedArray(array, length) {
-  arrayContainer = []; 
-  
-  return [["Good Morning", "Graeme"], ["Good", "Morning Graeme"]]
+function arrayCluster(array, length, index){
+  return [array.slice(0,index).join(" "), array.slice(index, length).join(" ")]
 }
-
-// splitString[1..length]
 
 module.exports = partList

@@ -6,6 +6,6 @@ test('returns an array in if has one element', () => {
 })
 
 test('returns two elements if array has three elements', () => {
-  output = [["Good Morning", "Graeme"], ["Good", "Morning Graeme"]]
+  output = [["Good", "Morning Graeme"], ["Good Morning", "Graeme"]]
   expect(partList(["Good", "Morning", "Graeme"])).toEqual(output)
 })
