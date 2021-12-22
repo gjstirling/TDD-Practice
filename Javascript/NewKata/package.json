@@ -1,0 +1,15 @@
+{
+  "name": "highestandlowest",
+  "version": "1.0.0",
+  "description": "In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.",
+  "main": "model.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
