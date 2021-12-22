@@ -1,5 +1,5 @@
 function highAndLow(numbers){
-  const num = numbers.split(" ") 
+  const num = numbers.split(" ").sort() 
   return `${num[0]} ${num[num.length - 1]}`
 }
 
